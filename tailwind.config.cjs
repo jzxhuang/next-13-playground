@@ -5,5 +5,6 @@ module.exports = {
   theme: {
     extend: {},
   },
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
   plugins: [require("tailwind-dracula")("dracula")],
 }
